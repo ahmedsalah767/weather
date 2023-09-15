@@ -1,0 +1,51 @@
+@keyframes fadeAndScale {
+    0% {
+      opacity: 0;
+      font-size: 0px;
+    }
+    100% {
+      opacity: 1;
+      font-size: 70px;
+    }
+  }
+body {
+background-image: url('https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App-1024x576.png');
+
+}
+
+body.night{
+  background-image: url('https://getwallpapers.com/wallpaper/full/b/5/a/566758.jpg')
+}
+
+
+#error{
+    font-size: 30px;
+    color: red
+}
+
+
+.temp{
+    padding: 30px;
+    font-size: 70px;
+        text-align: center;
+    color:rgb(57, 90, 72);
+    font-family: Arial, Helvetica, sans-serif;
+  animation: fadeAndScale 3s ease-in-out;
+
+}
+
+
+#weather{
+  animation: fadeAndScale 1.5s ease-in-out;
+    padding: 30px;
+    text-align: center;
+    font-size: 70px;
+    color:rgb(86, 101, 101);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#night{
+ 
+    color:rgb(251, 251, 251);
+}
