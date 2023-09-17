@@ -38,7 +38,7 @@ app.get('/', async (req,res)=>{
     }
     catch (err) {
         console.log(err);
-        res.render('index', { error:'City not found' });
+        res.render('index', { error:'City not found', night:false });
 
     }
     })
