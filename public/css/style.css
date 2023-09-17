@@ -9,11 +9,11 @@
     }
   }
 body {
-background-image: url('https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App-1024x576.png');
+background-image: url('https://as2.ftcdn.net/v2/jpg/04/97/80/99/1000_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg');
 
 }
 
-body.night{
+.night{
   background-image: url('https://getwallpapers.com/wallpaper/full/b/5/a/566758.jpg')
 }
 
@@ -28,8 +28,8 @@ body.night{
     padding: 30px;
     font-size: 70px;
         text-align: center;
-    color:rgb(57, 90, 72);
-    font-family: Arial, Helvetica, sans-serif;
+        color:rgb(24, 54, 54);
+        font-family: Arial, Helvetica, sans-serif;
   animation: fadeAndScale 3s ease-in-out;
 
 }
@@ -40,7 +40,7 @@ body.night{
     padding: 30px;
     text-align: center;
     font-size: 70px;
-    color:rgb(86, 101, 101);
+    color:rgb(24, 54, 54);
     font-family: Arial, Helvetica, sans-serif;
 }
 
